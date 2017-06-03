@@ -7,7 +7,9 @@ html, body {
 
 body {
   color: #606c76;
-  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   margin: 0;
 }
@@ -16,8 +18,12 @@ body {
     background: #30353c;
 }
 
-.green-color {
+.primary-color {
     background: #8bc34a;
+}
+
+.second-color {
+    background: #606c76;
 }
 
 .little-border {
@@ -117,6 +123,30 @@ body {
     padding-left: 5px;
     display: block;
 }
+
+/***************************************************** Table *****************************************************/
+
+.fluid-table > tbody > tr:nth-child(odd) {
+  background-color: #606c76;
+}
+
+.fluid-table {
+    width: 100%;
+    border-collapse:collapse;
+    display: table;
+}
+
+table, th, td {
+  border: none;
+}
+
+td, th {
+  padding: 10px 5px;
+  display: table-cell;
+  vertical-align: middle;
+  border: none;
+}
+
 /***************************************************** Media Queries *****************************************************/
 
 /* Mobile */
