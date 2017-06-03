@@ -36,6 +36,21 @@ body {
     color: #81867D;
 }
 
+.color-white {
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+/***************************************************** Grid *****************************************************/
+
 .container-grid {
     max-width: 100%;
 }
@@ -56,7 +71,7 @@ body {
   clear: both;
 }
 
-.item div {
+.item .column {
     float: left;
     min-height: 50px;
     margin-left: auto;
@@ -83,13 +98,26 @@ body {
 }
 
 .column6 {
-    width: 16,666666667%;
+    width: 16.666666667%;
 }
+
+/***************************************************** Fluid Images *****************************************************/
 
 .fluid-img-video {
     max-width: 100%;
     height:auto;
 }
+
+.card {
+    min-height: 75px;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.card h1 , .card span {
+    padding-left: 5px;
+    display: block;
+}
+/***************************************************** Media Queries *****************************************************/
 
 /* Mobile */
 @media (max-width: 480px) {
@@ -104,4 +132,4 @@ body {
 /* Desktop */
 @media (min-width: 1025px) {
 
-}
+}   
