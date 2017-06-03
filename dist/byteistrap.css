@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  color: #606c76;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 300;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 1024px) {
+
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+    
+}
