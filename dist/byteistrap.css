@@ -198,7 +198,7 @@ footer{
 
 .responsive-container {
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
 }
 
 .responsive-container section {
@@ -240,14 +240,17 @@ footer{
 /* Tablet */
 @media (min-width: 481px) and (max-width: 1024px) {
   .responsive-container nav {
+		flex: 1 auto;
   	order: 1;
   }
 
   .responsive-container aside {
+		flex: 1 auto;
   	order: 2;
   }
 
-	.responsive-container section {
+  .responsive-container section {
+		flex: 1 100%;
 		order: 3;
 	}
 }
