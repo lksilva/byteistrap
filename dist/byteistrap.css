@@ -7,11 +7,21 @@ html, body {
 
 body {
   color: #606c76;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-family: 'Merriweather', serif;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   margin: 0;
+}
+
+.text-vibur {
+	font-family: 'Vibur', cursive;
+}
+
+.text-merriweather {
+	font-family: 'Merriweather', serif;
+}
+
+.text-roboto {
+	font-family: 'Roboto', sans-serif;
 }
 
 .color-global {
